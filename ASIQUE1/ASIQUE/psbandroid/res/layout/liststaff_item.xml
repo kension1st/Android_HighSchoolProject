@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:id="@+id/linearLayout1" android:layout_height="match_parent" android:layout_width="wrap_content" android:orientation="vertical">
+        <TextView android:id="@+id/textView5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Kode Staff :" android:textColor="#5ce5ee"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/id_staff" android:textSize="20dip"></TextView>
+        <TextView android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Nama Staff :" android:textColor="#5ce5ee"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/nama_staff"></TextView>
+        <TextView android:id="@+id/textView2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Username :" android:textColor="#5ce5ee"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/username"></TextView>
+        <TextView android:id="@+id/textView3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Password :" android:textColor="#5ce5ee"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/pass"></TextView>
+        <TextView android:id="@+id/textView4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Level User :" android:textColor="#5ce5ee"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/level_user"></TextView>
+    </LinearLayout>
+</LinearLayout>

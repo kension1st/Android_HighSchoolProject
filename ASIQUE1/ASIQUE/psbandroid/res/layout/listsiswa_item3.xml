@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+    <LinearLayout android:layout_height="match_parent" android:orientation="vertical" android:layout_width="wrap_content" android:id="@+id/linearLayout1">
+        <TextView android:layout_height="wrap_content" android:id="@+id/kodcal" android:textColor="#5ce5ee" android:layout_width="wrap_content" android:text="Nama SIswa :"></TextView>
+        <TextView android:textSize="20dip" android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/namasiswa"></TextView>
+        <TextView android:layout_height="wrap_content" android:id="@+id/namseko" android:textColor="#5ce5ee" android:layout_width="wrap_content" android:text="Nama Sekolah :"></TextView>
+        <TextView android:layout_height="wrap_content" android:text="TextView" android:layout_width="wrap_content" android:id="@+id/namasekolah"></TextView>
+        <TextView android:layout_width="wrap_content" android:textColor="#5ce5ee" android:id="@+id/TextView01" android:layout_height="wrap_content" android:text="Nama Jurusan :"></TextView>
+        <TextView android:layout_width="wrap_content" android:id="@+id/namajurusan" android:layout_height="wrap_content" android:text="TextView"></TextView>
+        
+        
+    </LinearLayout>
+</LinearLayout>
